@@ -1,0 +1,16 @@
+apiVersion: V1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    project: expense
+    Environment: dev
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      ports:
+        - containerport: 80
+    - name: almalinux
+      image: almalinux:9
+      
