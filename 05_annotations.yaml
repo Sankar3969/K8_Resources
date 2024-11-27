@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Annotations
+  name: annotations
   annotations: 
      imageregistry: "https://hub.docker.com/"
      buildurl: "https://github.com/Sankar3969/ansible-roles"
