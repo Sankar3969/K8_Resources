@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: environment
   labels:
-  project: expense
+    project: expense
 spec:
  containers:
   - name: nginx
