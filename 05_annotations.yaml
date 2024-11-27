@@ -5,9 +5,8 @@ metadata:
   annotations: 
      imageregistry: "https://hub.docker.com/"
      buildurl: "https://github.com/Sankar3969/ansible-roles"
-# spec:
-#   containers:
-#   - name: nginx
-#     image: nginx
-#     ports:
-#       - containerPort: 80
+spec:
+  containers:
+  - name: almalinux
+    image: almalinux:9
+    command: ["sleep","5"]
