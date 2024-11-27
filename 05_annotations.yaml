@@ -9,4 +9,4 @@ spec:
   containers:
   - name: almalinux
     image: almalinux:9
-    command: ["sleep","5"]
+    command: ["sleep", "100"]
