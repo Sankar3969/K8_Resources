@@ -10,20 +10,15 @@ metadata:
 data:
   course: "devops"
   duration: "120 hrs"
-# spec:
-#   containers:
-#   - name: nginx
-#     image: nginx
-#     ports:
-#     - containerPort: 80
-    # env:
-    #   - name: course
-    #     value: devops11
-    # resources:
-    #   requests:
-    #     cpu: "100m"
-    #     memory: "68Mi"
-    #   limits:
-    #     cpu: "120m"
-    #     memory: "100Mi"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    resources:
+      requests:
+        cpu: "100m"
+        memory: "68Mi"
+      limits:
+        cpu: "120m"
+        memory: "100Mi"
 
