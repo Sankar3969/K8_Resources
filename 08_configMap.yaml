@@ -10,9 +10,6 @@ metadata:
 data:
   course: "devops"
   duration: "120 hrs"
-spec:
-  containers:
-  - name: nginx
-    image: nginx
+
    
 
