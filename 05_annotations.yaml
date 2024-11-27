@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Annotations
+  annotations: 
+     imageregistry: "https://hub.docker.com/"
+     buildurl: "https://github.com/Sankar3969/ansible-roles"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    ports:
+      -containerPorts: 80
