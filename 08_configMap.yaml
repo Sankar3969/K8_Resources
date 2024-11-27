@@ -10,12 +10,12 @@ metadata:
 data:
   course: "devops"
   duration: "120 hrs"
-spec:
-  containers:
-  - name: nginx
-    image: nginx
-    ports:
-    - containerPort: 80
+# spec:
+#   containers:
+#   - name: nginx
+#     image: nginx
+#     ports:
+#     - containerPort: 80
     # env:
     #   - name: course
     #     value: devops11
