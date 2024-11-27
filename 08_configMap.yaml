@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: configMap
+metadata:
+  name: configmap
+  annotations:
+    buildurl: "https://hub.docker.com/"
+  labels:
+    project: expense
+    module: backend
+data:
+  course: "devops"
+  duration: "120 hrs"
+spec:
+  container:
+  - name: nginx
+    image: nginx
+    ports:
+      - containerPort: 80
+    env:
+      - name: course
+        value: "devops11"
+    resources:
+      requests:
+        cpu: "100m"
+        memory: "68Mi"
+      limits:
+        cpu: "120m"
+        memory: "100Mi"
+
