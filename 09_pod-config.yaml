@@ -14,9 +14,9 @@ spec:
       - name: course
         valueFrom:
           configMapKeyRef:
-          - name: configmap
+            name: configmap
             key: course
         valueFrom:
           configMapKeyRef:
-          - name: configmap
+            name: configmap
             key: duration
