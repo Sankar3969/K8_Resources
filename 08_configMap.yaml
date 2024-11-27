@@ -11,7 +11,7 @@ data:
   course: "devops"
   duration: "120 hrs"
 spec:
-  container:
+  containers:
   - name: nginx
     image: nginx
     ports:
