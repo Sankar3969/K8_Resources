@@ -4,11 +4,12 @@ metadata:
   name: environment
   label: expense
 spec:
-  containers:
-  - name: nginx
-    image: nginx
-    Env:
+ Env:
     - name: course
       value: "devops"
     - name: duration
-      value: "120 hrs" 
+      value: "120 hrs"
+ containers:
+  - name: nginx
+    image: nginx
+   
