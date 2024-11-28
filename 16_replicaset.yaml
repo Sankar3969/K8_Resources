@@ -9,8 +9,8 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-    tier: frontend
-    app: nginx
+      tier: frontend
+      app: nginx
   template:
     metadata:
        name: nginx-pod
