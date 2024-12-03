@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: efs-dynamic-claim
 spec:
-  storageClassName: "expense-efs-sc" # Empty string must be explicitly set otherwise default StorageClass will be set
+  storageClassName: expense-efs-sc # Empty string must be explicitly set otherwise default StorageClass will be set
   accessModes:
     - ReadWriteOnce
   resources:
